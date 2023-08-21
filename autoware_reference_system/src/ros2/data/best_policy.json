@@ -76,17 +76,17 @@
             "unescapedStepName": ""
         },
         "FrontLidarDriver$parameter_events": {
-            "coreId": 0,
+            "coreId": 2,
             "factoryType": 1,
             "unescapedStepName": ""
         },
         "IntersectionOutput$EuclideanIntersection": {
-            "coreId": 3,
+            "coreId": 0,
             "factoryType": 1,
             "unescapedStepName": ""
         },
         "IntersectionOutput$parameter_events": {
-            "coreId": 3,
+            "coreId": 0,
             "factoryType": 1,
             "unescapedStepName": ""
         },
@@ -101,17 +101,17 @@
             "unescapedStepName": ""
         },
         "Lanelet2GlobalPlanner$NDTLocalizer": {
-            "coreId": 2,
+            "coreId": 1,
             "factoryType": 1,
             "unescapedStepName": ""
         },
         "Lanelet2GlobalPlanner$Visualizer": {
-            "coreId": 2,
+            "coreId": 1,
             "factoryType": 1,
             "unescapedStepName": ""
         },
         "Lanelet2GlobalPlanner$parameter_events": {
-            "coreId": 2,
+            "coreId": 1,
             "factoryType": 1,
             "unescapedStepName": ""
         },
@@ -121,17 +121,17 @@
             "unescapedStepName": ""
         },
         "Lanelet2MapLoader$Lanelet2GlobalPlanner": {
-            "coreId": 3,
+            "coreId": 1,
             "factoryType": 1,
             "unescapedStepName": ""
         },
         "Lanelet2MapLoader$Lanelet2Map": {
-            "coreId": 3,
+            "coreId": 1,
             "factoryType": 1,
             "unescapedStepName": ""
         },
         "Lanelet2MapLoader$parameter_events": {
-            "coreId": 3,
+            "coreId": 1,
             "factoryType": 1,
             "unescapedStepName": ""
         },
@@ -146,17 +146,17 @@
             "unescapedStepName": ""
         },
         "NDTLocalizer$PointCloudMapLoader": {
-            "coreId": 1,
+            "coreId": 2,
             "factoryType": 1,
             "unescapedStepName": ""
         },
         "NDTLocalizer$VoxelGridDownsampler": {
-            "coreId": 1,
+            "coreId": 2,
             "factoryType": 1,
             "unescapedStepName": ""
         },
         "NDTLocalizer$parameter_events": {
-            "coreId": 1,
+            "coreId": 2,
             "factoryType": 1,
             "unescapedStepName": ""
         },
@@ -171,12 +171,12 @@
             "unescapedStepName": ""
         },
         "ParkingPlanner$Lanelet2MapLoader": {
-            "coreId": 2,
+            "coreId": 1,
             "factoryType": 1,
             "unescapedStepName": ""
         },
         "ParkingPlanner$parameter_events": {
-            "coreId": 2,
+            "coreId": 1,
             "factoryType": 1,
             "unescapedStepName": ""
         },
@@ -196,52 +196,52 @@
             "unescapedStepName": ""
         },
         "PointCloudMap$parameter_events": {
-            "coreId": 2,
+            "coreId": 1,
             "factoryType": 1,
             "unescapedStepName": ""
         },
         "PointCloudMapLoader$PointCloudMap": {
-            "coreId": 2,
+            "coreId": 0,
             "factoryType": 1,
             "unescapedStepName": ""
         },
         "PointCloudMapLoader$parameter_events": {
-            "coreId": 2,
+            "coreId": 0,
             "factoryType": 1,
             "unescapedStepName": ""
         },
         "PointsTransformerFront$FrontLidarDriver": {
-            "coreId": 2,
+            "coreId": 0,
             "factoryType": 1,
             "unescapedStepName": ""
         },
         "PointsTransformerFront$parameter_events": {
-            "coreId": 2,
+            "coreId": 0,
             "factoryType": 1,
             "unescapedStepName": ""
         },
         "PointsTransformerRear$RearLidarDriver": {
-            "coreId": 3,
+            "coreId": 0,
             "factoryType": 1,
             "unescapedStepName": ""
         },
         "PointsTransformerRear$parameter_events": {
-            "coreId": 3,
+            "coreId": 0,
             "factoryType": 1,
             "unescapedStepName": ""
         },
         "RayGroundFilter$PointCloudFusion": {
-            "coreId": 3,
+            "coreId": 0,
             "factoryType": 1,
             "unescapedStepName": ""
         },
         "RayGroundFilter$parameter_events": {
-            "coreId": 3,
+            "coreId": 0,
             "factoryType": 1,
             "unescapedStepName": ""
         },
         "RearLidarDriver$parameter_events": {
-            "coreId": 1,
+            "coreId": 0,
             "factoryType": 1,
             "unescapedStepName": ""
         },
@@ -256,32 +256,32 @@
             "unescapedStepName": ""
         },
         "VehicleInterface$BehaviorPlanner": {
-            "coreId": 1,
+            "coreId": 0,
             "factoryType": 1,
             "unescapedStepName": ""
         },
         "VehicleInterface$MPCController": {
-            "coreId": 1,
+            "coreId": 0,
             "factoryType": 1,
             "unescapedStepName": ""
         },
         "VehicleInterface$parameter_events": {
-            "coreId": 1,
+            "coreId": 0,
             "factoryType": 1,
             "unescapedStepName": ""
         },
         "Visualizer$parameter_events": {
-            "coreId": 3,
+            "coreId": 2,
             "factoryType": 1,
             "unescapedStepName": ""
         },
         "VoxelGridDownsampler$PointCloudFusion": {
-            "coreId": 0,
+            "coreId": 2,
             "factoryType": 1,
             "unescapedStepName": ""
         },
         "VoxelGridDownsampler$parameter_events": {
-            "coreId": 0,
+            "coreId": 2,
             "factoryType": 1,
             "unescapedStepName": ""
         }
