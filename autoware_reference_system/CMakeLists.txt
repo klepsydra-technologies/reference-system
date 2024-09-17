@@ -67,6 +67,11 @@ add_benchmark_executable(autoware_default_custom
   src/ros2/executor/autoware_default_klepsydrasinglethreaded.cpp
 )
 
+# Add new executors to test here
+add_benchmark_executable(autoware_default_custom_optimized
+  src/ros2/executor/autoware_default_klepsydrasinglethreaded_optimized.cpp
+)
+
 set(CONF_DATA ${CMAKE_CURRENT_SOURCE_DIR}/src/ros2/data)
 #Configure modules header with variables configured
 configure_file("${CMAKE_CURRENT_SOURCE_DIR}/src/ros2/common/config.h.in"
@@ -75,11 +80,21 @@ configure_file("${CMAKE_CURRENT_SOURCE_DIR}/src/ros2/common/config.h.in"
 configure_file("${CMAKE_CURRENT_SOURCE_DIR}/src/ros2/data/streaming_conf.json.in"
                "${CMAKE_CURRENT_SOURCE_DIR}/src/ros2/data/streaming_conf.json")
 
+configure_file("${CMAKE_CURRENT_SOURCE_DIR}/src/ros2/data/streaming_conf_best.json.in"
+               "${CMAKE_CURRENT_SOURCE_DIR}/src/ros2/data/streaming_conf_best.json")
+
 target_include_directories(
   autoware_default_custom PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src/ros2/common)
 
 ament_export_include_directories(autoware_default_custom PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src/ros2/common)
 ament_target_dependencies(autoware_default_custom ${dependencies})
+
+target_include_directories(
+  autoware_default_custom_optimized PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src/ros2/common)
+
+ament_export_include_directories(autoware_default_custom_optimized PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src/ros2/common)
+ament_target_dependencies(autoware_default_custom_optimized ${dependencies})
+
 
 if(${BUILD_TESTING})
   find_package(ament_lint_auto REQUIRED)

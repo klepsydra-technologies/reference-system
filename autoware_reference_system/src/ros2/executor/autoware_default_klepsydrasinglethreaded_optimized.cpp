@@ -33,7 +33,7 @@ int main(int argc, char * argv[])
 
   auto nodes = create_autoware_nodes<RclcppSystem, TimeConfig>();
 
-  std::string jsonFileName = std::string(CONF_DATA) + std::string("/streaming_conf.json");
+  std::string jsonFileName = std::string(CONF_DATA) + std::string("/streaming_conf_best.json");
   if (argc > 1) {
     jsonFileName = argv[1];
   }
